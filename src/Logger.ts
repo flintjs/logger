@@ -1,5 +1,5 @@
-import { levels, LogLevel } from "./levels"
-import { ansi, color } from "./ansi"
+import { levels, LogLevel } from "./levels.js"
+import { ansi, color } from "./ansi.js"
 
 export interface LoggerOptions {
     prefix?: string

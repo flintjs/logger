@@ -1,4 +1,4 @@
-import { ansi, color } from "./ansi"
+import { ansi, color } from "./ansi.js"
 
 export type LogLevel = "info" | "success" | "warn" | "error" | "debug"
 

@@ -1,4 +1,4 @@
-import { ansi, color } from "./ansi"
+import { ansi, color } from "./ansi.js"
 
 export const colors = {
     bold: (text: string) => `${ansi.bold}${text}${ansi.reset}`,
